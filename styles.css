@@ -57,6 +57,16 @@ body {
   animation-direction: normal;
 }
 
+.botoncito{
+  color: darkmagenta;
+  border-radius: 50%;
+  border-style: double;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  width: 5rem;
+  height: 30px;
+}
+
 @keyframes blinker {
   50%{opacity: 0;}
 }
