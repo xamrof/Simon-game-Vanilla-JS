@@ -5,6 +5,21 @@ let buttons = document.querySelector(".btn");
 let level = 0;
 let toggle = false;
 
+
+//boton de iniciar
+
+
+let boton = document.querySelector(".botoncito")
+
+boton.addEventListener("click", () =>{
+  
+    if(toggle){}else{
+      blink(boton)
+      toggle = true;
+      nextSequence()
+    }
+})
+
 //Cuando se usa una tecla
 
 document.addEventListener("keydown", function() {
@@ -12,6 +27,8 @@ document.addEventListener("keydown", function() {
     nextSequence()
   }
 })
+
+
 
 //Cuando se hace click en un boton
 
